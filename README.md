@@ -14,10 +14,10 @@ betsy_run.py --network_png ssgsea.pdf --num_cores 23 \\
 > ***--mattr geneset_database2=curated***  
 
 > *ZINB-WaVE Normalization*
-> ***--dattr ssGSEAResults.zinbwave_norm=yes \
+> ***--dattr ssGSEAResults.zinbwave_norm=yes 
 > (Optional -- if you want to change the covariates)
-> ***--mattr sample_covariate=genes \
-> ***--mattr gene_covariate=gc+log_transcriptlen \
+> ***--mattr sample_covariate=genes 
+> ***--mattr gene_covariate=gc+log_transcriptlen 
 
 
 ## Statistical test on ssGSEA scores among groups  
