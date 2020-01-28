@@ -1,7 +1,7 @@
 ## run ssGSEA using Betsy  
 betsy_run.py --network_png ssgsea.pdf --num_cores 23 \\  
 --input SignalFile --input_file counts.txt \\  
---dattr SignalFile.preprocess=count \\  
+--dattr SignalFile.preprocess=counts \\  
 --output ssGSEAResults --output_file dir_to_the_output \\  
 ***--mattr geneset_file=.gmt \\***   
 ***--mattr geneset_file2=.gmt \\***  
