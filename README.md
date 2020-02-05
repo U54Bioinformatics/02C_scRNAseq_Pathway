@@ -40,4 +40,5 @@ betsy_run.py --network_png de02.pdf --num_cores 20 --receipt receipt.txt \\
 ## References and documentation 
 References: 
 GSVA [Hänzelmann et al. BMC Bioinformatics (2013)](https://doi.org/10.1186/1471-2105-14-7)
+
 ZINB-WaVE [Risso et al. Nature Communications (2018)](https://doi.org/10.1038/s41467-017-02554-5)
