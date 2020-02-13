@@ -10,14 +10,14 @@ betsy_run.py --network_png ssgsea.pdf --num_cores 23 \\
 --run
 
 > *An alternative\:*  
-> ***--mattr geneset_database=hallmarks***  
-> ***--mattr geneset_database2=curated***  
+> ***--mattr geneset_database=hallmarks \\***  
+> ***--mattr geneset_database2=curated \\***  
 
 > *ZINB-WaVE Normalization*  
-> ***--dattr ssGSEAResults.zinbwave_norm=yes***   
+> ***--dattr ssGSEAResults.zinbwave_norm=yes \\***   
 > (Optional -- if you want to change the covariates)  
-> ***--mattr sample_covariate=genes***  
-> ***--mattr gene_covariate=gc+log_transcriptlen***  
+> ***--mattr sample_covariate=genes \\***  
+> ***--mattr gene_covariate=gc+log_transcriptlen \\***  
 
 
 ## Statistical test on ssGSEA scores among groups  
@@ -32,7 +32,7 @@ betsy_run.py --network_png de02.pdf --num_cores 20 --receipt receipt.txt \\
 --mattr plot_max_genes_per_group=11
 
 > **Alternatives\:**  
-> ***--dattr DiffExpAnalysis.de_comparison=one_vs_others***  
+> ***--dattr DiffExpAnalysis.de_comparison=one_vs_others \\***  
 >
 > **Notes\:**  
 > simple_class.txt: The format is two columns and tab-deliminated.  The headers should be 'Sample' and 'Class'.  The 'Sample' column should be identical to the column names of the 'scores.txt' file and the 'Class' column could be annotation or other grouping factors. 
